@@ -1,0 +1,87 @@
+/* Define o box-sizing global para border-box, o que inclui padding e borda no cálculo da largura e altura dos elementos */
+*{
+    box-sizing: border-box;
+}
+/* Define a cor de fundo para o corpo da página */
+body{background-color: #ffc086;}
+
+
+/* Estiliza a lista não ordenada para atuar como um menu horizontal */
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(19, 14, 9, 0.877);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.199);
+    
+} 
+
+/* Estiliza os links dentro da lista */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Estiliza as imagens dentro do elemento <header> */
+header img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    display: block;
+    margin:auto; 
+    border: 3px solid rgb(255, 240, 228);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+}
+/* Define a margem da classe .conteiner */
+.conteiner{
+    margin:  0px 20px;
+}
+
+/* Estiliza o título principal dentro do elemento <header> */
+header h1{
+    
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size: 48px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+/* Estiliza o conteúdo principal da página */
+.main{
+    color: rgb(14, 13, 13);
+    padding: 10px 10px 30px 10px;
+}
+
+/* Define o estilo dos links quando o cursor passa sobre eles */
+a:hover{
+    background-color: #ff8330;
+    box-shadow: 2px 2px 1px 7px#ff8330;  
+}
+
+/* Estiliza os elementos com a classe .caixa */
+.caixa{
+    display:inline-block;
+    background-color: rgb(252, 158, 50);
+    
+    text-align: center;
+    height: 220px; /*Altura*/
+    width: 200px;  /*Largura*/
+}
+
+/* Define o estilo da caixa quando o cursor passa sobre ela */
+.caixa:hover{
+        background-color: rgb(255, 145, 54);}
+
+/* Estiliza o rodapé da página */
+.rodape{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom:0%;
+    width: 100%;
+}
+
